@@ -1,7 +1,7 @@
-var Engine = Matter.Engine,
-	    World = Matter.World,
-	    Events = Matter.Events,
-	    Bodies = Matter.Bodies; 
+   const Engine = Matter.Engine;
+   const World = Matter.World;
+   const Events = Matter.Events;
+   const Bodies = Matter.Bodies; 
 	var particles = [];
 	var plinkos = [];
 	var divisions =[];
@@ -65,7 +65,7 @@ var Engine = Matter.Engine,
 	  Engine.update(engine);
 	  ground.display();
 	  
-	  if(score >= 1800){
+	  if(score >= 1200){
 		  text("Victory",150,250);
 		
 	  }
